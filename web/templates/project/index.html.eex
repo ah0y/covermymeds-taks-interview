@@ -20,7 +20,7 @@
   </tbody>
 </table>
 
-<span><%= link "New Project", to: customer_project_path(@conn, :new, 1) %></span>
+<span><%= link "New Project", to: customer_project_path(@conn, :new, @customer) %></span>
 
 
 

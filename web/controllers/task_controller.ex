@@ -2,21 +2,27 @@ defmodule PhoenixTasks.TaskController do
   use PhoenixTasks.Web, :controller
 
   alias PhoenixTasks.Task
+  alias PhoenixTasks.Project
+  alias PhoenixTasks.User
 
-  def index(conn, params) do
-    require IEx; IEx.pry()
+  def index(conn, params, user) do
     tasks = Repo.all(Task)
     render(conn, "index.html", tasks: tasks)
   end
 
-  def new(conn, _params) do
+  def new(conn, params, user) do
     changeset = Task.changeset(%Task{})
-    render(conn, "new.html", changeset: changeset)
+    render(conn, "new.html", changeset: changeset, customer: params["customer_id"], project: params["project_id"])
   end
 
-  def create(conn, %{"task" => task_params}) do
+  def create(conn, %{"task" => task_params}, user) do
+    require IEx; IEx.pry()
+    project = Repo.get(Project, conn.params["project_id"])
+    changeset = Repo.get(Project, conn.params["project_id"])
+                |> build_assoc(:tasks)
+                |> Task.changeset(task_params)
     changeset = Task.changeset(%Task{}, task_params)
-    case Repo.insert(task_params) do
+    case Repo.insert(changeset) do
       {:ok, task} ->
         conn
         |> put_flash(:info, "Task created successfully.")
@@ -25,7 +31,7 @@ defmodule PhoenixTasks.TaskController do
     end
   end
 
-  def show(conn, %{"id" => id}) do
+  def show(conn, %{"id" => id}, user) do
     task = Repo.get(Task, id)
     render(conn, "show.html", task: task)
   end

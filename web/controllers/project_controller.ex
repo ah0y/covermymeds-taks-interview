@@ -11,7 +11,7 @@ defmodule PhoenixTasks.ProjectController do
       Customer
       |> Repo.get(conn.params["customer_id"])
       |> Repo.preload(:projects)
-    render(conn, "index.html", projects: customer.projects)
+    render(conn, "index.html", customer: customer.id, projects: customer.projects)
   end
 
   def new(conn, params, _user) do
@@ -33,11 +33,10 @@ defmodule PhoenixTasks.ProjectController do
     end
   end
 
-  def show(conn, %{"id" => id}, user) do
-    require IEx; IEx.pry()
-    user
-      |> Repo.preload(:tasks)
-    redirect(conn, to: customer_project_task_path(conn, :index, conn.params["customer_id"], id, user.tasks))
+  def show(conn, %{"id" => project}, user) do
+    user = Repo.preload(user, :tasks)
+    company = conn.params["customer_id"]
+    redirect(conn, to: customer_project_task_path(conn, :index, company, project, user.tasks))
   end
 
   def edit(conn, %{"id" => id}, _user) do
