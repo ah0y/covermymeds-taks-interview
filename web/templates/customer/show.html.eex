@@ -5,5 +5,4 @@
 </ul>
 
 
-<span><%= link "Edit", to: customer_path(@conn, :edit, @customer) %></span>
-<span><%= link "Back", to: customer_path(@conn, :index) %></span>
+
