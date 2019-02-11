@@ -1,0 +1,8 @@
+<h2>Show Task  entry</h2>
+
+<ul>
+
+</ul>
+
+<span><%= link "Edit", to: customer_project_task_task_entry_path(@conn, :edit, @customer, @project, @task, @task_entry) %></span>
+<span><%= link "Back", to: customer_project_task_task_entry_path(@conn, :index, @customer, @project, @task, @task_entry) %></span>

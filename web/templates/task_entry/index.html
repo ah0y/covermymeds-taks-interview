@@ -1,0 +1,24 @@
+<h2>Listing Task entries</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for task_entry <- @task_entries do %>
+    <tr>
+
+      <td class="text-right">
+        <span><%= link "Show", to: task_entry_path(@conn, :show, task_entry), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: task_entry_path(@conn, :edit, task_entry), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: task_entry_path(@conn, :delete, task_entry), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Task  entry", to: task_entry_path(@conn, :new) %></span>
