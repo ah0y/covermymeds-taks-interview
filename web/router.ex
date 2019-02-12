@@ -18,9 +18,9 @@ defmodule PhoenixTasks.Router do
   scope "/", PhoenixTasks do
     pipe_through :browser # Use the default browser stack
 
-    get "/", SessionController, :new
+    get "/", TaskController, :all
 
-    get "/index", PageController, :index
+#    get "/index", PageController, :index
 
     resources "/users", UserController
     resources "/sessions", SessionController, only: [:new, :create, :delete]

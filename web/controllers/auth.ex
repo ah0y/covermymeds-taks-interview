@@ -11,7 +11,7 @@ defmodule PhoenixTasks.Auth do
     else
       conn
       |> put_flash(:error, "You must be logged in to access that page")
-      |> redirect(to: Helpers.user_path(conn, :new))
+      |> redirect(to: Helpers.session_path(conn, :new))
       |> halt()
     end
   end

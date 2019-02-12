@@ -29,5 +29,5 @@
 
 
                   </div>
-        <%= submit "Create Customer", class: "btn btn-primary" %>
+        <%= submit "Submit", class: "btn btn-primary" %>
     <% end %>

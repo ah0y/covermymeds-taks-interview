@@ -9,6 +9,5 @@
             		<%= error_tag f, :note %>
 
         </div>
-
-        <%= submit "Create Task Entry", class: "btn btn-primary" %>
+        <%= submit "Submit", class: "btn btn-primary" %>
     <% end %>

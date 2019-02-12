@@ -9,5 +9,5 @@
             		<%= error_tag f, :project_name %>
 
         </div>
-        <%= submit "Create Project", class: "btn btn-primary" %>
+        <%= submit "Submit", class: "btn btn-primary" %>
     <% end %>

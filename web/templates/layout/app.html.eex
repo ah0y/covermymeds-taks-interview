@@ -24,7 +24,8 @@
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-right">
-                        <li><%= link "companies", to: customer_path(@conn, :index) %></li>
+                        <li><%= link "all customers", to: customer_path(@conn, :index) %></li>
+                        <li><%= link "new customer", to: customer_path(@conn, :new) %></li>
                     </ul>
                 </div>
                 <div class="dropdown" style="display:inline-block">

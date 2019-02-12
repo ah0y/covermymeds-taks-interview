@@ -1,4 +1,4 @@
-<h2>Listing Task entries</h2>
+<h2>Listing Task Entries</h2>
 
 <table class="table">
   <thead>
@@ -23,5 +23,5 @@
 
 
 
-<span><%= link "New Task", to: customer_project_task_task_entry_path(@conn, :new, @customer, @project, @task) %></span>
+<span><%= link "New Entry", to: customer_project_task_task_entry_path(@conn, :new, @customer, @project, @task) %></span>
 

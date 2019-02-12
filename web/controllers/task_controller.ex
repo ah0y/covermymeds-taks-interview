@@ -1,6 +1,7 @@
 defmodule PhoenixTasks.TaskController do
   use PhoenixTasks.Web, :controller
   import Ecto.Query
+  plug :authenticate_user when action in [:index, :new, :create, :show, :edit, :update, :delete, :all]
 
   alias PhoenixTasks.Task
   alias PhoenixTasks.Project
@@ -15,6 +16,11 @@ defmodule PhoenixTasks.TaskController do
       Repo.preload(tasks: query)
 
   render(conn, "index.html", customer: params["customer_id"], project: project, tasks: user.tasks)
+  end
+
+  def all(conn, params, user) do
+#    require IEx; IEx.pry()
+    render(conn, "all.html")
   end
 
   def new(conn, params, user) do
