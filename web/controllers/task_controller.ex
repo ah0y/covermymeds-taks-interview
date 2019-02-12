@@ -1,15 +1,20 @@
 defmodule PhoenixTasks.TaskController do
   use PhoenixTasks.Web, :controller
+  import Ecto.Query
 
   alias PhoenixTasks.Task
   alias PhoenixTasks.Project
   alias PhoenixTasks.User
+  alias PhoenixTasks.TaskEntry
 
   def index(conn, params, user) do
-  user =
+    project = params["project_id"]
+    query = from(t in Task, where: t.project_id == ^project)
+    user =
     user |>
-      Repo.preload(:tasks)
-    render(conn, "index.html", company: params["customer_id"], project: params["project_id"], tasks: user.tasks)
+      Repo.preload(tasks: query)
+
+  render(conn, "index.html", customer: params["customer_id"], project: project, tasks: user.tasks)
   end
 
   def new(conn, params, user) do
@@ -35,9 +40,13 @@ defmodule PhoenixTasks.TaskController do
     end
   end
 
-  def show(conn, %{"id" => id}, user) do
-    task = Repo.get(Task, id)
-    render(conn, "show.html", task: task)
+  def show(conn, %{"id" => task}, user) do
+    customer  = conn.params["customer_id"]
+    project = conn.params["project_id"]
+#    task_entries = Repo.get(Task, task)
+#      |> Repo.preload(:task_entries)
+#    require IEx; IEx.pry()
+    redirect(conn, to: customer_project_task_task_entry_path(conn, :index, customer, project, task ))
   end
 
   def edit(conn, %{"id" => id}, user) do
@@ -47,11 +56,11 @@ defmodule PhoenixTasks.TaskController do
   end
 
   def update(conn, %{"id" => id, "task" => task_params}, user) do
-#    require IEx; IEx.pry()
     task = Repo.get(Task, id)
     changeset = Task.changeset(task, task_params)
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
+
     case Repo.update(changeset) do
       {:ok, task} ->
         conn
@@ -69,7 +78,7 @@ defmodule PhoenixTasks.TaskController do
     Repo.delete(task)
     conn
       |> put_flash(:info, "Task deleted successfully.")
-      |> redirect(to: customer_project_task_path(conn, :index, customer, project, 1))
+      |> redirect(to: customer_project_task_path(conn, :index, customer, project))
   end
 
     def action(conn, _) do

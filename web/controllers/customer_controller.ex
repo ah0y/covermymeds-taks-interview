@@ -1,7 +1,6 @@
 defmodule PhoenixTasks.CustomerController do
   use PhoenixTasks.Web, :controller
 
-#  alias PhoenixTasks.PhoenixTasks
   alias PhoenixTasks.Customer
 
 

@@ -66,7 +66,6 @@ defmodule PhoenixTasks.ProjectController do
     project = Repo.get(Project, id)
     Repo.delete!(project)
     conn
-    require IEx; IEx.pry()
     |> put_flash(:info, "Project deleted successfully.")
     |> redirect(to: customer_project_path(conn, :index, customer))
   end

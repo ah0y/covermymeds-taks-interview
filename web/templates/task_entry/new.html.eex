@@ -1,5 +1,5 @@
 <h2>New Task Entry</h2>
 
 <%= render "form.html", changeset: @changeset,
-                        action: customer_project_task_task_entry_path(@conn, :create, @customer, @project, @task, @task_entry) %>
+                        action: customer_project_task_task_entry_path(@conn, :create, @customer, @project, @task) %>
 
