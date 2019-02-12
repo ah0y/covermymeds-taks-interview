@@ -10,6 +10,7 @@ defmodule PhoenixTasks.Customer do
 
     has_many :projects, PhoenixTasks.Project
 
+
     timestamps()
   end
 

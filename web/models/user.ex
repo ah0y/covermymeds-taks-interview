@@ -10,6 +10,7 @@ defmodule PhoenixTasks.User do
 
     has_many :tasks, PhoenixTasks.Task
     has_many :task_entires, through: [:tasks, :task_entry]
+    has_many :customers, through: [:tasks, :projects, :customer]
 
 
     timestamps()

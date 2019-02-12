@@ -51,7 +51,6 @@ defmodule PhoenixTasks.TaskEntryController do
   end
 
   def edit(conn, %{"id" => id}, user) do
-#    require IEx; IEx.pry()
     task_entry = Repo.get(TaskEntry, id)
     changeset = TaskEntry.changeset(task_entry)
     render(conn, "edit.html", task_entry: task_entry, task: conn.params["task_id"], changeset: changeset, customer: conn.params["customer_id"], project: conn.params["project_id"])

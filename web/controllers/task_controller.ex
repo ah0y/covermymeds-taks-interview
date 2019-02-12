@@ -7,6 +7,8 @@ defmodule PhoenixTasks.TaskController do
   alias PhoenixTasks.Project
   alias PhoenixTasks.User
   alias PhoenixTasks.TaskEntry
+  alias PhoenixTasks.Customer
+
 
   def index(conn, params, user) do
     project = params["project_id"]
@@ -19,7 +21,16 @@ defmodule PhoenixTasks.TaskController do
   end
 
   def all(conn, params, user) do
-#    require IEx; IEx.pry()
+
+    all_work = Repo.all assoc(user, [:tasks, :projects, :customers])
+    all_t = Repo.preload(all_work, [{:projects, :tasks}])
+
+    #   all_work =
+#     Repo.all assoc(user, [:tasks, :projects, :customers])
+#     |> Repo.preload([{:projects, :tasks}])
+
+    require IEx; IEx.pry()
+
     render(conn, "all.html")
   end
 
