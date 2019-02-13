@@ -8,7 +8,7 @@ defmodule PhoenixTasks.TaskController do
   alias PhoenixTasks.Customer
   alias PhoenixTasks.Project
   alias PhoenixTasks.Task
-  alias PhoenixTasks.TaskEntry
+  alias PhoenixTasks.Entry
   alias PhoenixTasks.User
 
   def index(conn, params, user) do
@@ -55,7 +55,7 @@ defmodule PhoenixTasks.TaskController do
   def show(conn, %{"id" => task}, _user) do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
-    redirect(conn, to: customer_project_task_task_entry_path(conn, :index, customer, project, task))
+    redirect(conn, to: customer_project_task_entry_path(conn, :index, customer, project, task))
   end
 
   def edit(conn, %{"id" => id}, _user) do

@@ -1,4 +1,4 @@
-defmodule PhoenixTasks.TaskEntryController do
+defmodule PhoenixTasks.EntryController do
   use PhoenixTasks.Web, :controller
 
   import Ecto.Query
@@ -6,25 +6,25 @@ defmodule PhoenixTasks.TaskEntryController do
   plug :authenticate_user when action in [:index, :new, :create, :show, :edit, :update, :delete]
 
   alias PhoenixTasks.Task
-  alias PhoenixTasks.TaskEntry
+  alias PhoenixTasks.Entry
   alias PhoenixTasks.User
 
   def index(conn, params, user) do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     task = conn.params["task_id"]
-    query = from te in TaskEntry,
+    query = from e in Entry,
                  join: t in Task,
-                 where: t.id == te.task_id,
+                 where: t.id == e.task_id,
                  join: u in User,
                  where: u.id == t.user_id,
-                 where: te.task_id == ^task
-    task_entries = Repo.all(query)
-    render(conn, "index.html", customer: customer, project: project, task: task, task_entries: task_entries)
+                 where: e.task_id == ^task
+    entries = Repo.all(query)
+    render(conn, "index.html", customer: customer, project: project, task: task, entries: entries)
   end
 
   def new(conn, params, _user) do
-    changeset = TaskEntry.changeset(%TaskEntry{})
+    changeset = Entry.changeset(%Entry{})
     render(
       conn,
       "new.html",
@@ -35,18 +35,18 @@ defmodule PhoenixTasks.TaskEntryController do
     )
   end
 
-  def create(conn, %{"task_entry" => task_entry_params}, _user) do
+  def create(conn, %{"entry" => entry_params}, _user) do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     task = conn.params["task_id"]
     changeset = Repo.get(Task, conn.params["task_id"])
-                |> build_assoc(:task_entries)
-                |> TaskEntry.changeset(task_entry_params)
+                |> build_assoc(:entries)
+                |> Entry.changeset(entry_params)
     case Repo.insert(changeset) do
-      {:ok, task_entry} ->
+      {:ok, entry} ->
         conn
         |> put_flash(:info, "Project created successfully.")
-        |> render("show.html", customer: customer, project: project, task: task, task_entry: task_entry.id)
+        |> render("show.html", customer: customer, project: project, task: task, entry: entry.id)
       {:error, %Ecto.Changeset{} = changeset} ->
         render(
           conn,
@@ -63,35 +63,35 @@ defmodule PhoenixTasks.TaskEntryController do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     task = conn.params["task_id"]
-    task_entry = Repo.get(TaskEntry, id)
-    render(conn, "show.html", customer: customer, project: project, task: task, task_entry: task_entry)
+    entry = Repo.get(Entry, id)
+    render(conn, "show.html", customer: customer, project: project, task: task, entry: entry)
   end
 
   def edit(conn, %{"id" => id}, _user) do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     task = conn.params["task_id"]
-    task_entry = Repo.get(TaskEntry, id)
-    changeset = TaskEntry.changeset(task_entry)
+    entry = Repo.get(Entry, id)
+    changeset = Entry.changeset(entry)
     render(
       conn,
       "edit.html",
       customer: customer,
       project: project,
       task: task,
-      task_entry: task_entry,
+      entry: entry,
       changeset: changeset
     )
   end
 
-  def update(conn, %{"id" => id, "task_entry" => task_entry_params}, user) do
+  def update(conn, %{"id" => id, "entry" => entry_params}, user) do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     task = conn.params["task_id"]
-    task_entry = Repo.get(TaskEntry, id)
-    changeset = TaskEntry.changeset(task_entry, task_entry_params)
+    entry = Repo.get(Entry, id)
+    changeset = Entry.changeset(entry, entry_params)
     case Repo.update(changeset) do
-      {:ok, task_entry} ->
+      {:ok, entry} ->
         conn
         |> put_flash(:info, "Task  entry updated successfully.")
         |> render(
@@ -99,10 +99,10 @@ defmodule PhoenixTasks.TaskEntryController do
              customer: customer,
              project: project,
              task: task,
-             task_entries: (Repo.all assoc(user, [:tasks, :task_entries]))
+             entries: (Repo.all assoc(user, [:tasks, :entries]))
            )
       {:error, %Ecto.Changeset{} = changeset} ->
-        render(conn, "edit.html", task_entry: task_entry, changeset: changeset)
+        render(conn, "edit.html", entry: entry, changeset: changeset)
     end
   end
 
@@ -110,8 +110,8 @@ defmodule PhoenixTasks.TaskEntryController do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     task = conn.params["task_id"]
-    task_entry = Repo.get(TaskEntry, id)
-    Repo.delete(task_entry)
+    entry = Repo.get(Entry, id)
+    Repo.delete(entry)
     conn
     |> put_flash(:info, "Task entry deleted successfully.")
     |> render(
@@ -119,7 +119,7 @@ defmodule PhoenixTasks.TaskEntryController do
          customer: customer,
          project: project,
          task: task,
-         task_entries: (Repo.all assoc(user, [:tasks, :task_entries]))
+         entries: (Repo.all assoc(user, [:tasks, :entries]))
        )
   end
 

@@ -1,7 +1,7 @@
-defmodule PhoenixTasks.TaskEntry do
+defmodule PhoenixTasks.Entry do
   use PhoenixTasks.Web, :model
 
-  schema "task_entries" do
+  schema "entries" do
     field :note, :string
 
     belongs_to :task, PhoenixTasks.Task, foreign_key: :task_id

@@ -8,7 +8,6 @@ defmodule PhoenixTasks.Router do
     plug :protect_from_forgery
     plug :put_secure_browser_headers
     plug PhoenixTasks.Auth, repo: PhoenixTasks.Repo
-
   end
 
   pipeline :api do
@@ -26,15 +25,11 @@ defmodule PhoenixTasks.Router do
     resources "/customers", CustomerController do
       resources "/projects", ProjectController do
         resources "/tasks", TaskController do
-          resources "/task_entries", TaskEntryController  do
+          resources "/entries", EntryController  do
           end
         end
       end
     end
-
-
-
-
   end
 
   # Other scopes may use custom stacks.
