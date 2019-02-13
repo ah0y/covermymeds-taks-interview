@@ -5,7 +5,6 @@ defmodule PhoenixTasks.CustomerController do
 
   alias PhoenixTasks.Customer
 
-
   def index(conn, _params) do
     customers = Repo.all(Customer)
     render(conn, "index.html", customers: customers)
@@ -28,11 +27,11 @@ defmodule PhoenixTasks.CustomerController do
     end
   end
 
-  def show(conn, %{"id" => id}) do
+  def show(conn, %{"id" => customer}) do
     customer =
       Customer
-        |> Repo.get(id)
-        |> Repo.preload(:projects)
+      |> Repo.get(customer)
+      |> Repo.preload(:projects)
     redirect(conn, to: customer_project_path(conn, :index, customer.id, customer.projects))
   end
 
@@ -49,7 +48,7 @@ defmodule PhoenixTasks.CustomerController do
       {:ok, customer} ->
         conn
         |> put_flash(:info, "Customer updated successfully.")
-        |> redirect(to: customer_path(conn, :show, customer))
+        |> redirect(to: customer_path(conn, :index))
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "edit.html", customer: customer, changeset: changeset)
     end

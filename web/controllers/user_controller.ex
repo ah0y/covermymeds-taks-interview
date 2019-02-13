@@ -1,8 +1,6 @@
 defmodule PhoenixTasks.UserController do
   use PhoenixTasks.Web, :controller
-#  plug :authenticate_user when action in [:index, :show]
-
-
+  #  plug :authenticate_user when action in [:index, :show]
   alias PhoenixTasks.User
 
   def authenticate(conn, _opts) do
@@ -10,9 +8,9 @@ defmodule PhoenixTasks.UserController do
       conn
     else
       conn
-      |> put_flash(:error, "You must be logged in to access that page")
-      |> redirect(to: user_path(conn, :new))
-      |> halt()
+        |> put_flash(:error, "You must be logged in to access that page")
+        |> redirect(to: user_path(conn, :new))
+        |> halt()
     end
   end
 
@@ -31,8 +29,8 @@ defmodule PhoenixTasks.UserController do
     case Repo.insert(changeset) do
       {:ok, user} ->
         conn
-        |> put_flash(:info, "User created successfully.")
-        |> redirect(to: user_path(conn, :show, user))
+          |> put_flash(:info, "User created successfully.")
+          |> redirect(to: session_path(conn, :new))
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "new.html", changeset: changeset)
     end
@@ -52,13 +50,11 @@ defmodule PhoenixTasks.UserController do
   def update(conn, %{"id" => id, "user" => user_params}) do
     user = Repo.get(User, id)
     changeset = User.changeset(user, user_params)
-
-
     case Repo.update(changeset) do
       {:ok, user} ->
         conn
-        |> put_flash(:info, "User updated successfully.")
-        |> redirect(to: user_path(conn, :show, user))
+          |> put_flash(:info, "User updated successfully.")
+          |> redirect(to: user_path(conn, :show, user))
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "edit.html", user: user, changeset: changeset)
     end
@@ -67,10 +63,9 @@ defmodule PhoenixTasks.UserController do
   def delete(conn, %{"id" => id}) do
     user = Repo.get(User, id)
     {:ok, _user} = PhoenixTasks.delete_user(user)
-
     conn
-    |> put_flash(:info, "User deleted successfully.")
-    |> redirect(to: user_path(conn, :index))
+      |> put_flash(:info, "User deleted successfully.")
+      |> redirect(to: user_path(conn, :index))
   end
 end
 

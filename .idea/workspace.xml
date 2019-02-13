@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc28efc8-5fd6-427e-8807-0d4c3428cb52" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/templates/customer/show.html.eex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/templates/project/show.html.eex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/templates/task/show.html.eex" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/customer_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/customer_controller.ex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/project_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/project_controller.ex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/session_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/session_controller.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/task_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/task_controller.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/js/app.js" afterPath="$PROJECT_DIR$/web/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/task/all.html.eex" afterPath="$PROJECT_DIR$/web/templates/task/all.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/task_entry_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/task_entry_controller.ex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/user_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/user_controller.ex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/router.ex" afterPath="$PROJECT_DIR$/web/router.ex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/customer/index.html.eex" afterPath="$PROJECT_DIR$/web/templates/customer/index.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/layout/app.html.eex" afterPath="$PROJECT_DIR$/web/templates/layout/app.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/project/index.html.eex" afterPath="$PROJECT_DIR$/web/templates/project/index.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/project/new.html.eex" afterPath="$PROJECT_DIR$/web/templates/project/new.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/task/index.html.eex" afterPath="$PROJECT_DIR$/web/templates/task/index.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/task_entry/index.html.eex" afterPath="$PROJECT_DIR$/web/templates/task_entry/index.html.eex" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,63 +33,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="task_controller.ex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/controllers/task_controller.ex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-950">
-              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="all.html.eex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/templates/task/all.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/task/index.html.eex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/priv/static/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/customer/index.html.eex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="169" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="169" />
+            <state relative-caret-position="450">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -86,12 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>registration</find>
-      <find>project</find>
-      <find>task_path</find>
-      <find>customer_project_task_path</find>
-      <find>task_entry_path</find>
-      <find>path</find>
       <find>project_path</find>
       <find>rumbl</find>
       <find>virtual:</find>
@@ -108,7 +63,6 @@
       <find>11</find>
       <find>require</find>
       <find>ecto</find>
-      <find>render</find>
       <find>company</find>
       <find>index</find>
       <find>dropdown</find>
@@ -116,6 +70,13 @@
       <find>css</find>
       <find>20121123</find>
       <find>parent1Content</find>
+      <find>index.html</find>
+      <find>conn.params</find>
+      <find>changeset</find>
+      <find>customer</find>
+      <find>render</find>
+      <find>user</find>
+      <find>tbody</find>
     </findStrings>
     <replaceStrings>
       <replace>PhoenixTasks</replace>
@@ -148,7 +109,6 @@
         <option value="$PROJECT_DIR$/priv/repo/migrations/20190209151917_create_user.exs" />
         <option value="$PROJECT_DIR$/web/templates/customer/form.html.eex" />
         <option value="$PROJECT_DIR$/web/templates/customer/index.html.eex" />
-        <option value="$PROJECT_DIR$/web/templates/project/new.html.eex" />
         <option value="$PROJECT_DIR$/web/templates/customer/edit.html.eex" />
         <option value="$PROJECT_DIR$/web/templates/project/edit.html.eex" />
         <option value="$PROJECT_DIR$/web/templates/project/show.html.eex" />
@@ -164,25 +124,26 @@
         <option value="$PROJECT_DIR$/web/templates/task_entry/show.html.eex" />
         <option value="$PROJECT_DIR$/web/models/project.ex" />
         <option value="$PROJECT_DIR$/web/templates/layout/app.html" />
-        <option value="$PROJECT_DIR$/web/templates/layout/app.html.eex" />
         <option value="$PROJECT_DIR$/web/controllers/auth.ex" />
-        <option value="$PROJECT_DIR$/web/controllers/customer_controller.ex" />
-        <option value="$PROJECT_DIR$/web/controllers/project_controller.ex" />
-        <option value="$PROJECT_DIR$/web/controllers/user_controller.ex" />
-        <option value="$PROJECT_DIR$/web/router.ex" />
-        <option value="$PROJECT_DIR$/web/controllers/session_controller.ex" />
         <option value="$PROJECT_DIR$/web/templates/task_entry/index.html.eex" />
         <option value="$PROJECT_DIR$/web/web.ex" />
         <option value="$PROJECT_DIR$/web/templates/task_entry/edit.html.eex" />
         <option value="$PROJECT_DIR$/web/templates/task_entry/form.html.eex" />
-        <option value="$PROJECT_DIR$/web/controllers/task_entry_controller.ex" />
         <option value="$PROJECT_DIR$/web/models/customer.ex" />
         <option value="$PROJECT_DIR$/web/models/user.ex" />
-        <option value="$PROJECT_DIR$/web/controllers/task_controller.ex" />
         <option value="$PROJECT_DIR$/web/static/js/table.js" />
         <option value="$PROJECT_DIR$/priv/static/css/app.css" />
         <option value="$PROJECT_DIR$/web/static/js/app.js" />
         <option value="$PROJECT_DIR$/web/templates/task/all.html.eex" />
+        <option value="$PROJECT_DIR$/web/router.ex" />
+        <option value="$PROJECT_DIR$/web/controllers/session_controller.ex" />
+        <option value="$PROJECT_DIR$/web/templates/layout/app.html.eex" />
+        <option value="$PROJECT_DIR$/web/templates/project/new.html.eex" />
+        <option value="$PROJECT_DIR$/web/controllers/customer_controller.ex" />
+        <option value="$PROJECT_DIR$/web/controllers/task_controller.ex" />
+        <option value="$PROJECT_DIR$/web/controllers/project_controller.ex" />
+        <option value="$PROJECT_DIR$/web/controllers/task_entry_controller.ex" />
+        <option value="$PROJECT_DIR$/web/controllers/user_controller.ex" />
       </list>
     </option>
   </component>
@@ -267,10 +228,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -333,6 +290,10 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -352,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,29 +331,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phoenixtasks-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phoenixtasks-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="customer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,11 +364,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="app.cs&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;customer\index.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;task\index.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/index.html.eex&#10;app.js&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/static/js/app.js&#10;task_entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/task_entry.ex&#10;customer&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/customer.ex&#10;project&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/project.ex&#10;user.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/user.ex&#10;task.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/task.ex&#10;task_contr&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;task_entry\edit&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/edit.html.eex&#10;web.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/web.ex&#10;task_ent&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;app&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/layout/app.html.eex&#10;task_entry_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;task_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;session\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/session/new.html.eex&#10;session_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex&#10;user&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;router.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;auth&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/auth.ex&#10;mix.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/mix.exs&#10;router&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;auth.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/auth.ex&#10;app.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;package.json&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/package.json&#10;project.ex&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/models/project.ex&#10;task\index.&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/templates/task/index.html.eex&#10;mix.lock&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.lock&#10;task_co&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/controllers/task_controller.ex&#10;task_entr&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/models/task_entry.ex&#10;task\edit&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/templates/task/edit.html.eex&#10;project\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/index.html.eex&#10;task\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/index.html&#10;project\show&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/show.html.eex&#10;task\show&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/show.html.eex&#10;project\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/new.html.eex&#10;task\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/new.html.eex&#10;tasks\form.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/form.html.eex&#10;router.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;customer\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;customer\sh&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/show.html.eex&#10;customer\edit&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/edit.html.eex&#10;customer_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/customer_controller.ex&#10;project\form&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/form.html.eex&#10;customer\form&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/form.html.eex&#10;customer\show&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenix_tasks/web/templates/customer/show.html.eex&#10;project/show&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenix_tasks/web/templates/project/show.html.eex&#10;task_controller&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenix_tasks/web/controllers/task_controller.ex&#10;project_c&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenix_tasks/web/controllers/project_controller.ex" />
+    <property name="SearchEverywhereHistoryKey" value="task\all.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/all.html.eex&#10;sess&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex&#10;user_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;task\index.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/index.html.eex&#10;app.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/layout/app.html.eex&#10;task_contr&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;router.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;app.cs&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;customer\index.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;app.js&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/static/js/app.js&#10;task_entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/task_entry.ex&#10;customer&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/customer.ex&#10;project&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/project.ex&#10;user.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/user.ex&#10;task.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/task.ex&#10;task_entry\edit&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/edit.html.eex&#10;web.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/web.ex&#10;task_ent&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;app&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/layout/app.html.eex&#10;task_entry_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;task_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;session\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/session/new.html.eex&#10;session_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex&#10;user&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;router.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;auth&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/auth.ex&#10;mix.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/mix.exs&#10;router&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;auth.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/auth.ex&#10;app.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;package.json&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/package.json&#10;project.ex&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/models/project.ex&#10;task\index.&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/templates/task/index.html.eex&#10;mix.lock&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.lock&#10;task_co&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/controllers/task_controller.ex&#10;task_entr&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/models/task_entry.ex&#10;task\edit&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/templates/task/edit.html.eex&#10;project\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/index.html.eex&#10;task\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/index.html&#10;project\show&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/show.html.eex&#10;task\show&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/show.html.eex&#10;project\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/new.html.eex&#10;task\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/new.html.eex&#10;tasks\form.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/form.html.eex&#10;customer\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;customer\sh&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/show.html.eex&#10;customer\edit&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/edit.html.eex&#10;customer_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/customer_controller.ex&#10;project\form&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/form.html.eex&#10;customer\form&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/form.html.eex" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phoenix_tube" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -586,34 +529,35 @@
       <workItem from="1549886478778" duration="22346000" />
       <workItem from="1549922705241" duration="13667000" />
       <workItem from="1549941351317" duration="3325000" />
-      <workItem from="1549973980690" duration="25901000" />
+      <workItem from="1549973980690" duration="31635000" />
+      <workItem from="1550072141182" duration="3948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100063000" />
+    <option name="totallyTimeSpent" value="109745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1407" y="-1361" width="2182" height="1312" extended-state="6" />
+    <frame x="1407" y="-1361" width="2182" height="1312" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24976076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25358853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,13 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/views/task_entry_view.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/user/edit.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -671,62 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/customer/form.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/customer/new.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/customer/show.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/project/edit.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/project/form.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/project/show.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/project/new.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/project/index.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/task/new.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -738,20 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/task/show.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/customer/edit.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -769,19 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/task_entry/show.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/user/form.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,31 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/page_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/customer_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/project_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,43 +666,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/session_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/session/new.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/router.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/user_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/task_entry/new.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,14 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/layout/app.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -897,19 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/task_entry/edit.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="125" lean-forward="false" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/task_entry/form.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,35 +736,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/task_entry_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/customer/index.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="169" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="169" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/table.js" />
     <entry file="file://$PROJECT_DIR$/priv/static/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,31 +749,180 @@
         <state relative-caret-position="350">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/task/full.html.eex" />
+    <entry file="file://$PROJECT_DIR$/web/router.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/customer/show.html.eex" />
+    <entry file="file://$PROJECT_DIR$/web/controllers/page_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/project/show.html.eex" />
+    <entry file="file://$PROJECT_DIR$/web/templates/task/show.html.eex" />
+    <entry file="file://$PROJECT_DIR$/web/templates/task_entry/show.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/layout/app.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/task/index.html.eex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="100">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/customer/edit.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/customer/form.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/customer/index.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/customer/new.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/project/edit.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/project/form.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/project/index.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/project/new.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/session/new.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/task_entry/edit.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="125" lean-forward="false" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/customer_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/project_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/task_entry_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-957">
+          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/session_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/user_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/task_controller.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="275">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/task/all.html.eex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>

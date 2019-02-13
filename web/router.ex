@@ -20,8 +20,6 @@ defmodule PhoenixTasks.Router do
 
     get "/", TaskController, :all
 
-#    get "/index", PageController, :index
-
     resources "/users", UserController
     resources "/sessions", SessionController, only: [:new, :create, :delete]
 

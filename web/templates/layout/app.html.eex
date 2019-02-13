@@ -28,6 +28,15 @@
                         <li><%= link "new customer", to: customer_path(@conn, :new) %></li>
                     </ul>
                 </div>
+                 <div class="dropdown" style="display:inline-block">
+                       <a class="dropdown-toggle" type="button" data-toggle="dropdown">
+                           Tasks
+                           <span class="caret"></span>
+                       </a>
+                       <ul class="dropdown-menu dropdown-menu-right">
+                           <li><%= link "my tasks", to: task_path(@conn, :all) %></li>
+                       </ul>
+                </div>
                 <div class="dropdown" style="display:inline-block">
                     <a class="dropdown-toggle" type="button" data-toggle="dropdown">
 

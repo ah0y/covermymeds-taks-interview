@@ -9,7 +9,7 @@
   <tbody>
 <%= for project <- @projects do %>
     <tr>
-      <td><b><%= project.project_name %></b> </td>
+      <td><%= project.project_name %></td>
       <td class="text-right">
         <span><%= link "Show", to: customer_project_path(@conn, :show, project.customer_id, project.id), class: "btn btn-default btn-xs" %></span>
         <span><%= link "Edit", to: customer_project_path(@conn, :edit, project.customer_id, project.id), class: "btn btn-default btn-xs" %></span>

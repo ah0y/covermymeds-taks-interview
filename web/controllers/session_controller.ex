@@ -5,23 +5,31 @@ defmodule PhoenixTasks.SessionController do
     render conn, "new.html"
   end
 
-  def create(conn, %{"session" => %{"username" => user, "password" => pass}}) do
+  def create(
+        conn,
+        %{
+          "session" => %{
+            "username" => user,
+            "password" => pass
+          }
+        }
+      ) do
     case PhoenixTasks.Auth.login_by_username_and_pass(conn, user, pass, repo: Repo) do
       {:ok, conn} ->
         conn
-        |> put_flash(:info, "Welcome back!")
-        |> redirect(to: task_path(conn, :all))
+          |> put_flash(:info, "Welcome back!")
+          |> redirect(to: task_path(conn, :all))
       {:error, _reason, conn} ->
         conn
-        |> put_flash(:error, "Invalid username/password combination")
-        |> render("new.html")
+          |> put_flash(:error, "Invalid username/password combination")
+          |> render("new.html")
     end
   end
 
   def delete(conn, _) do
     conn
-    |> PhoenixTasks.Auth.logout()
-    |> redirect(to: session_path(conn, :new))
+      |> PhoenixTasks.Auth.logout()
+      |> redirect(to: session_path(conn, :new))
   end
 end
 
