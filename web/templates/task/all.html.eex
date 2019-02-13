@@ -1,1 +1,36 @@
-<h2>Listing Tasks</h2>
+<%= for work <- @work do %>
+
+<div id="grandparent" class="list-group-item">
+    <div class="collapsed" data-toggle="collapse" data-target="#grandparentContent" data-role="expander" data-group-id="grandparent">
+      <ul class="list-inline">
+            <li class="icon-class"></li>
+            <li><%= work.company %></li>
+        </ul>
+    </div>
+    <div class="collapse" id="grandparentContent" aria-expanded="true">
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Projects</th>
+          </tr>
+        </thead>
+        <%= for project <- work.projects do %>
+        <tbody>
+          <tr class="collapsed" data-toggle="collapse" data-target=".<%=project.id%>">
+            <td class="icon-class"></td>
+            <td><%=project.project_name%></td>
+          </tr>
+         <%= for task <- project.tasks do %>
+          <tr class="collapse <%=project.id%>">
+            <td></td>
+            <td> <%= task.task_name %> </td>
+         <% end %>
+          </tr>
+        </tbody>
+        <% end %>
+      </table>
+    </div>
+</div>
+<% end %>
+

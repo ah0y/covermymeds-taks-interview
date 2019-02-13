@@ -21,17 +21,13 @@ defmodule PhoenixTasks.TaskController do
   end
 
   def all(conn, params, user) do
+    user = Repo.all assoc(user, [:tasks, :projects, :customers])
+    work = Repo.preload(user, [{:projects, :tasks}])
 
-    all_work = Repo.all assoc(user, [:tasks, :projects, :customers])
-    all_t = Repo.preload(all_work, [{:projects, :tasks}])
 
-    #   all_work =
-#     Repo.all assoc(user, [:tasks, :projects, :customers])
-#     |> Repo.preload([{:projects, :tasks}])
+#    require IEx; IEx.pry()
 
-    require IEx; IEx.pry()
-
-    render(conn, "all.html")
+    render(conn, "all.html", work: work)
   end
 
   def new(conn, params, user) do
