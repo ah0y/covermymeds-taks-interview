@@ -8,12 +8,12 @@ defmodule PhoenixTasks.ProjectController do
   alias PhoenixTasks.Task
   alias PhoenixTasks.User
 
-  def index(conn, _params, _user) do
+  def index(conn, params, _user) do
     customer = conn.params["customer_id"]
     customer = Customer
                |> Repo.get(customer)
                |> Repo.preload(:projects)
-    render(conn, "index.html", customer: customer.id, projects: customer.projects)
+    render(conn, "index.html", header: customer.company, customer: customer.id, projects: customer.projects)
   end
 
   def new(conn, params, _user) do

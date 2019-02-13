@@ -5,12 +5,12 @@ defmodule PhoenixTasks.CustomerController do
 
   alias PhoenixTasks.Customer
 
-  def index(conn, _params) do
+  def index(conn, params) do
     customers = Repo.all(Customer)
     render(conn, "index.html", customers: customers)
   end
 
-  def new(conn, _params) do
+  def new(conn, params) do
     changeset = Customer.changeset(%Customer{})
     render(conn, "new.html", changeset: changeset)
   end

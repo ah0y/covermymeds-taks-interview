@@ -13,12 +13,12 @@ defmodule PhoenixTasks.TaskController do
 
   def index(conn, params, user) do
     customer = params["customer_id"]
-    project = params["project_id"]
-    query = from(t in Task, where: t.project_id == ^project)
+    project = Repo.get(Project, params["project_id"])
+    query = from(t in Task, where: t.project_id == ^project.id)
     user =
       user
       |> Repo.preload(tasks: query)
-    render(conn, "index.html", customer: customer, project: project, tasks: user.tasks)
+    render(conn, "index.html", header: project.project_name, customer: customer, project: project.id, tasks: user.tasks)
   end
 
   def all(conn, params, user) do

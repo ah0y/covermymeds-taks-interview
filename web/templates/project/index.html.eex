@@ -1,4 +1,4 @@
-<h2>Listing Projects</h2>
+<h2><%=@header%> Projects</h2>
 
 <table class="table">
   <thead>

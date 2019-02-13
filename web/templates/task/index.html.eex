@@ -1,5 +1,4 @@
-<h2>Listing Tasks</h2>
-
+<h2><%=@header%> Tasks</h2>
 <table class="table">
   <thead>
     <tr>
