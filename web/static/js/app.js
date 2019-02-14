@@ -17,6 +17,17 @@ $('[data-toggle="collapse"]').on('click', function() {
     $(this).toggleClass('collapsed');
 });
 
+$('#siteColor').change(()=>{
+    $("#full").css("background-color",$("#siteColor").val());
+    localStorage.setItem('siteColor', $("#siteColor").val() );
+});
+
+$(document).ready(function(){
+    var siteColor = localStorage.getItem("siteColor")
+    if (siteColor != "#FFFFFF") {
+        $("#full").css("background-color",siteColor);
+    }
+});
 
 
 

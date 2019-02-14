@@ -12,7 +12,7 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 </head>
-<body>
+<body id="full">
 <div class="container">
     <header class="header">
         <nav role="navigation">
@@ -44,8 +44,8 @@
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-right">
-                        <li><%= link "log out", to: session_path(@conn, :delete, @current_user), method: "delete" %>
-                        </li>
+                         <li><%= link "pref", to: user_path(@conn, :pref) %></li>
+                        <li><%= link "log out", to: session_path(@conn, :delete, @current_user), method: "delete" %></li>
                     </ul>
                 </div>
                 <% else %>

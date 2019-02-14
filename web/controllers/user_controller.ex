@@ -14,6 +14,11 @@ defmodule PhoenixTasks.UserController do
     end
   end
 
+  def pref(conn, _params) do
+
+    render(conn, "pref.html")
+  end
+
   def index(conn, _params) do
     users = Repo.all(User)
     render(conn, "index.html", users: users)
