@@ -37,7 +37,6 @@ defmodule PhoenixTasks.Web do
 
       import PhoenixTasksWeb.Router.Helpers
       import PhoenixTasksWeb.Gettext
-      import PhoenixTasksWeb.Auth, only: [authenticate_user: 2]
     end
   end
 
@@ -60,7 +59,6 @@ defmodule PhoenixTasks.Web do
   def router do
     quote do
       use Phoenix.Router
-      import PhoenixTasksWeb.Auth, only: [authenticate_user: 2]
     end
   end
 

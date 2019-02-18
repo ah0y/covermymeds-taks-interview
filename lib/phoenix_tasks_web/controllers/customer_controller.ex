@@ -1,8 +1,6 @@
 defmodule PhoenixTasksWeb.CustomerController do
   use PhoenixTasks.Web, :controller
 
-  plug :authenticate_user when action in [:index, :new, :create, :show, :edit, :update, :delete]
-
   alias PhoenixTasks.Customer
 
   def index(conn, params) do

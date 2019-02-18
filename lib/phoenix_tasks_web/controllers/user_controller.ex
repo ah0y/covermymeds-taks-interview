@@ -1,6 +1,6 @@
 defmodule PhoenixTasksWeb.UserController do
   use PhoenixTasks.Web, :controller
-  #  plug :authenticate_user when action in [:index, :show]
+
   alias PhoenixTasks.User
 
   def authenticate(conn, _opts) do

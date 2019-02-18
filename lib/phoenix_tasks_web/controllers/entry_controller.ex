@@ -3,8 +3,6 @@ defmodule PhoenixTasksWeb.EntryController do
 
   import Ecto.Query
 
-  plug :authenticate_user when action in [:index, :new, :create, :show, :edit, :update, :delete]
-
   alias PhoenixTasks.Task
   alias PhoenixTasks.Entry
   alias PhoenixTasks.User

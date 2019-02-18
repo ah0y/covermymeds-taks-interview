@@ -2,81 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc28efc8-5fd6-427e-8807-0d4c3428cb52" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/certifi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/certifi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/coherence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/coherence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/combine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/combine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/elixir_make.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/elixir_make.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/hackney.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hackney.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/idna.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/idna.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jason.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jason.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/metrics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/metrics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mimerl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mimerl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/parse_trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/parse_trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/phoenix_swoosh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_swoosh.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ssl_verify_fun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ssl_verify_fun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/swoosh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/swoosh.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/timex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/timex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/timex_ecto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/timex_ecto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/tzdata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/tzdata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/unicode_util_compat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/unicode_util_compat.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phoenix_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phoenix_tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brunch-config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/prod.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/test.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks/endpoint.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/auth.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/customer_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/customer_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/project_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/project_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/session_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/user_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/user_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/router.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/layout/app.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/layout/app.html.eex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/views/session_view.ex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectFilesBackup/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/channels/user_socket.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/auth.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/customer_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/entry_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/page_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/project_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/session_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/task_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/user_controller.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/gettext.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/models/customer.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/models/entry.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/models/project.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/models/task.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/models/user.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/router.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/assets/images/phoenix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/assets/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/css/phoenix.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/socket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/customer/edit.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/customer/form.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/customer/index.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/customer/new.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/entry/edit.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/entry/form.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/entry/index.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/entry/new.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/entry/show.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/layout/app.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/page/index.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/project/edit.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/project/form.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/project/index.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/project/new.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/session/new.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/task/all.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/task/edit.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/task/form.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/task/index.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/task/new.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/edit.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/form.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/index.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/new.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/pref.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/show.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/customer_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/entry_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/error_helpers.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/error_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/layout_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/page_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/project_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/session_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/task_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/user_view.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mix.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mix.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,12 +47,47 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="router.ex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/router.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phoenix_tasks.ex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.html.eex" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/layout/app.html.eex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="endpoint.ex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/endpoint.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>query</find>
-      <find>redirect</find>
       <find>edit</find>
       <find>11</find>
       <find>require</find>
@@ -123,6 +116,8 @@
       <find>children</find>
       <find>PhoenixTasks.Auth</find>
       <find>phoenixtasks.web</find>
+      <find>authenticate_user</find>
+      <find>auth</find>
     </findStrings>
     <replaceStrings>
       <replace>PhoenixTasks</replace>
@@ -143,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/templates/project/new.html.eex" />
-        <option value="$PROJECT_DIR$/web/templates/task/all.html.eex" />
         <option value="$PROJECT_DIR$/web/controllers/customer_controller.ex" />
         <option value="$PROJECT_DIR$/web/controllers/project_controller.ex" />
         <option value="$PROJECT_DIR$/web/templates/project/index.html.eex" />
@@ -163,7 +156,6 @@
         <option value="$PROJECT_DIR$/web/templates/user/pref.html.eex" />
         <option value="$PROJECT_DIR$/web/static/js/app.js" />
         <option value="$PROJECT_DIR$/web/static/css/app.css" />
-        <option value="$PROJECT_DIR$/mix.exs" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/auth.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/page_controller.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/session_controller.ex" />
@@ -186,14 +178,17 @@
         <option value="$PROJECT_DIR$/assets/package.json" />
         <option value="$PROJECT_DIR$/assets/brunch-config.js" />
         <option value="$PROJECT_DIR$/config/dev.exs" />
-        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/router.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks/application.ex" />
-        <option value="$PROJECT_DIR$/lib/phoenix_tasks.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/user_controller.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/project_controller.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/customer_controller.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/mix.exs" />
+        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/router.ex" />
+        <option value="$PROJECT_DIR$/lib/phoenix_tasks.ex" />
+        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/layout/app.html.eex" />
       </list>
     </option>
   </component>
@@ -236,18 +231,7 @@
             <path>
               <item name="phoenixtasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="phoenixtasks" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoenixtasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoenixtasks" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoenixtasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoenixtasks" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="phoenix_tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="phoenixtasks" type="b2602c69:ProjectViewProjectNode" />
@@ -262,6 +246,13 @@
               <item name="phoenix_tasks_web" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="phoenixtasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phoenixtasks" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="phoenix_tasks_web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -269,7 +260,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="router&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/router.ex&#10;customer_contr&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/customer_controller.ex&#10;auth&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/auth.ex&#10;mix.e&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.exs&#10;mix.ecs&#9;null&#9;null&#10;mix.ec&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/_build/dev/lib/ecto/ebin/Elixir.Mix.Ecto.beam&#10;app.css&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/static/css/app.css&#10;app.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/layout/app.html.eex&#10;customer\index.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;app.js&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/static/js/app.js&#10;user\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/user&#10;router.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;user_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;app.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/layout/app.html.eex&#10;migrations\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/_build/dev/lib/phoenix_tasks/priv/repo/migrations&#10;task_entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/_build/dev/lib/phoenix_tasks/priv/repo/migrations/20190209152146_create_task_entry.exs&#10;entry_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/entry_controller.ex&#10;task_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;router.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;models\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models&#10;project.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/project.ex&#10;task_entry\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/index.html.eex&#10;task_contr&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;task\index.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/index.html.eex&#10;project&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/project_controller.ex&#10;project\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/index.html.eex&#10;user&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;session_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex&#10;task\all.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/all.html.eex&#10;sess&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex&#10;user_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;app.cs&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;customer\index.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;customer&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/customer.ex&#10;user.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/user.ex&#10;task.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/task.ex&#10;task_entry\edit&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/edit.html.eex&#10;web.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/web.ex&#10;task_ent&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;app&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/layout/app.html.eex&#10;task_entry_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;task_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;session\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/session/new.html.eex&#10;auth.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/auth.ex&#10;app.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;package.json&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/package.json&#10;task\index.&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/templates/task/index.html.eex&#10;mix.lock&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.lock&#10;task_co&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/controllers/task_controller.ex&#10;task_entr&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/models/task_entry.ex" />
+    <property name="SearchEverywhereHistoryKey" value="app.ht&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;router&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/router.ex&#10;session&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/session_controller.ex&#10;app.html&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;customer_contr&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/customer_controller.ex&#10;auth&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/auth.ex&#10;mix.e&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.exs&#10;mix.ecs&#9;null&#9;null&#10;mix.ec&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/_build/dev/lib/ecto/ebin/Elixir.Mix.Ecto.beam&#10;app.css&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/static/css/app.css&#10;customer\index.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;app.js&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/static/js/app.js&#10;user\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/user&#10;router.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;user_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;migrations\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/_build/dev/lib/phoenix_tasks/priv/repo/migrations&#10;task_entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/_build/dev/lib/phoenix_tasks/priv/repo/migrations/20190209152146_create_task_entry.exs&#10;entry_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/entry_controller.ex&#10;task_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;router.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;models\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models&#10;project.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/project.ex&#10;task_entry\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/index.html.eex&#10;task_contr&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;task\index.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/index.html.eex&#10;project&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/project_controller.ex&#10;project\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/project/index.html.eex&#10;user&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;session_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex&#10;task\all.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task/all.html.eex&#10;sess&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex&#10;user_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;app.cs&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;customer\index.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;customer&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/customer.ex&#10;user.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/user.ex&#10;task.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/task.ex&#10;task_entry\edit&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/edit.html.eex&#10;web.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/web.ex&#10;task_ent&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;app&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/layout/app.html.eex&#10;task_entry_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_entry_controller.ex&#10;task_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;session\new&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/session/new.html.eex&#10;auth.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/auth.ex&#10;app.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/static/css/app.css&#10;package.json&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/package.json&#10;task\index.&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/templates/task/index.html.eex&#10;mix.lock&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.lock&#10;task_co&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/web/controllers/task_controller.ex" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -334,12 +325,12 @@
       <workItem from="1549941351317" duration="3325000" />
       <workItem from="1549973980690" duration="31635000" />
       <workItem from="1550072141182" duration="12967000" />
-      <workItem from="1550503302728" duration="3403000" />
+      <workItem from="1550503302728" duration="4066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122167000" />
+    <option name="totallyTimeSpent" value="122830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="360" y="23" width="2182" height="971" extended-state="0" />
@@ -396,20 +387,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/controllers/project_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/page_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/customer_controller.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -516,13 +493,6 @@
         </state>
       </provider>
       <provider editor-type-id="BEAM" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mix.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/models/customer.ex">
       <provider selected="true" editor-type-id="text-editor">
@@ -660,31 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/router.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks/application.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/endpoint.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="45" column="91" lean-forward="true" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -723,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/session_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -741,6 +683,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/session_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/endpoint.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/router.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/layout/app.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
         </state>
       </provider>
     </entry>

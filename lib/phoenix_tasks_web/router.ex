@@ -1,5 +1,7 @@
 defmodule PhoenixTasksWeb.Router do
   use PhoenixTasks.Web, :router
+  use Coherence.Router         # Add this
+
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -7,21 +9,47 @@ defmodule PhoenixTasksWeb.Router do
     plug :fetch_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
-    plug PhoenixTasksWeb.Auth, repo: PhoenixTasks.Repo
+    plug Coherence.Authentication.Session  # Add this
+  end
+
+  pipeline :protected do
+    plug :accepts, ["html"]
+    plug :fetch_session
+    plug :fetch_flash
+    plug :protect_from_forgery
+    plug :put_secure_browser_headers
+    plug Coherence.Authentication.Session, protected: true
   end
 
   pipeline :api do
     plug :accepts, ["json"]
   end
 
+  scope "/" do
+    pipe_through :browser
+    coherence_routes()
+  end
+
+  # Add this block
+  scope "/" do
+    pipe_through :protected
+    coherence_routes :protected
+  end
+
   scope "/", PhoenixTasksWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", TaskController, :all
-    get "/pref", UserController, :pref
+    get "/", PageController, :index
+#    get "/pref", UserController, :pref
 
+
+  end
+
+  scope "/", PhoenixTasksWeb do
+    pipe_through :protected
+
+    # add protected resources below
     resources "/users", UserController
-    resources "/sessions", SessionController, only: [:new, :create, :delete]
 
     resources "/customers", CustomerController do
       resources "/projects", ProjectController do
