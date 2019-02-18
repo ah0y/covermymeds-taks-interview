@@ -39,11 +39,11 @@ config :coherence,
   invitation_permitted_attributes: ["name","email"],
   password_reset_permitted_attributes: ["reset_password_token","password","password_confirmation"],
   session_permitted_attributes: ["remember","email","password"],
-  email_from_name: "Your Name",
-  email_from_email: "yourname@example.com",
+  email_from_name: "account support",
+  email_from_email: "accounts@abesprojects.com",
   opts: [:authenticatable, :recoverable, :lockable, :trackable, :unlockable_with_token, :confirmable, :registerable]
 
 config :coherence, PhoenixTasksWeb.Coherence.Mailer,
   adapter: Swoosh.Adapters.Sendgrid,
-  api_key: "your api key here"
+  api_key: {:system, "SENDGRID_API_KEY"}
 # %% End Coherence Configuration %%

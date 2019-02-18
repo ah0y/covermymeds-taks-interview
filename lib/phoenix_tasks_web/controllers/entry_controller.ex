@@ -5,7 +5,7 @@ defmodule PhoenixTasksWeb.EntryController do
 
   alias PhoenixTasks.Task
   alias PhoenixTasks.Entry
-  alias PhoenixTasks.User
+  alias PhoenixTasks.Coherence.User
 
   def index(conn, params, user) do
     customer = conn.params["customer_id"]

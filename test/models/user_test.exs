@@ -1,7 +1,7 @@
 defmodule PhoenixTasks.UserTest do
   use PhoenixTasks.ModelCase
 
-  alias PhoenixTasks.User
+  alias PhoenixTasks.Coherence.User
 
   @valid_attrs %{email: "some email", password: "some password", username: "some username"}
   @invalid_attrs %{}

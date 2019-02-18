@@ -10,6 +10,11 @@ defmodule PhoenixTasks.Coherence.User do
     field :email, :string
     coherence_schema()
 
+
+    has_many :tasks, PhoenixTasks.Task
+    has_many :entires, through: [:tasks, :entry]
+    has_many :customers, through: [:tasks, :projects, :customer]
+
     timestamps()
   end
 

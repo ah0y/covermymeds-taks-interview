@@ -1,8 +1,0 @@
-<h2>User Preferences</h2>
-
-<div>
-    <input type="color" id="siteColor"
-           value="#FFFFFF">
-    <label for="siteColor">Site Background Color</label>
-    <script>if (localStorage.getItem("siteColor") !=null ) {document.getElementById('siteColor').value = localStorage.getItem("siteColor");}</script>
-</div>

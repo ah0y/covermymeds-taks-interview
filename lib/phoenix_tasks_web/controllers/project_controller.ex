@@ -4,7 +4,7 @@ defmodule PhoenixTasksWeb.ProjectController do
   alias PhoenixTasks.Customer
   alias PhoenixTasks.Project
   alias PhoenixTasks.Task
-  alias PhoenixTasks.User
+  alias PhoenixTasks.Coherence.User
 
   def index(conn, params, _user) do
     customer = conn.params["customer_id"]

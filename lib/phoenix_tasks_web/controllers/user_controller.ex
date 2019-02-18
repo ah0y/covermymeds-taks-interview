@@ -1,7 +1,7 @@
 defmodule PhoenixTasksWeb.UserController do
   use PhoenixTasks.Web, :controller
 
-  alias PhoenixTasks.User
+  alias PhoenixTasks.Coherence.User
 
   def authenticate(conn, _opts) do
     if conn.assigns.current_user do
