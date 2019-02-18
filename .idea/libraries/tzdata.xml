@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tzdata" type="mix">
+    <CLASSES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/tzdata/lib" />
+      <root url="file://$PROJECT_DIR$/deps/tzdata/priv" />
+    </SOURCES>
+  </library>
+</component>

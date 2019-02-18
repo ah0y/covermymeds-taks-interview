@@ -10,10 +10,10 @@ config :phoenix_tasks,
   ecto_repos: [PhoenixTasks.Repo]
 
 # Configures the endpoint
-config :phoenix_tasks, PhoenixTasks.Endpoint,
+config :phoenix_tasks, PhoenixTasksWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "H8cQWU6b1Gc8GIIrMq0nN0pZI3/CDCXzZhEU6hOFzH5p9zABRe1Eq/zmlodEoVwW",
-  render_errors: [view: PhoenixTasks.ErrorView, accepts: ~w(html json)],
+  render_errors: [view: PhoenixTasksWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: PhoenixTasks.PubSub,
            adapter: Phoenix.PubSub.PG2]
 

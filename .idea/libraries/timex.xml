@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="timex" type="mix">
+    <CLASSES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/timex/lib" />
+      <root url="file://$PROJECT_DIR$/deps/timex/priv" />
+    </SOURCES>
+  </library>
+</component>
