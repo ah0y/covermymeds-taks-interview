@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="uuid" type="mix">
+  <library name="uuid">
     <CLASSES />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/deps/uuid/lib" />

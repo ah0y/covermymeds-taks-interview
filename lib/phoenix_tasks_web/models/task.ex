@@ -5,7 +5,7 @@ defmodule PhoenixTasks.Task do
     field :task_name, :string
 
     belongs_to :projects, PhoenixTasks.Project, foreign_key: :project_id
-    belongs_to :users, PhoenixTasks.User, foreign_key: :user_id
+    belongs_to :users, PhoenixTasks.Coherence.User, foreign_key: :user_id
     has_many :entries, PhoenixTasks.Entry
 
     timestamps()

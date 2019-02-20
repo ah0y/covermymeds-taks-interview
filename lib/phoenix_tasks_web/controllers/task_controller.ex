@@ -33,6 +33,7 @@ defmodule PhoenixTasksWeb.TaskController do
   end
 
   def create(conn, %{"task" => task_params}, user) do
+    require IEx; IEx.pry()
     customer = conn.params["customer_id"]
     changeset = Repo.get(Project, conn.params["project_id"])
                 |> build_assoc(:tasks)

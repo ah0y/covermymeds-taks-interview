@@ -3,16 +3,16 @@ defmodule PhoenixTasksWeb.UserController do
 
   alias PhoenixTasks.Coherence.User
 
-  def authenticate(conn, _opts) do
-    if conn.assigns.current_user do
-      conn
-    else
-      conn
-        |> put_flash(:error, "You must be logged in to access that page")
-        |> redirect(to: user_path(conn, :new))
-        |> halt()
-    end
-  end
+#  def authenticate(conn, _opts) do
+#    if conn.assigns.current_user do
+#      conn
+#    else
+#      conn
+#        |> put_flash(:error, "You must be logged in to access that page")
+#        |> redirect(to: user_path(conn, :new))
+#        |> halt()
+#    end
+#  end
 
   def pref(conn, _params) do
     render(conn, "pref.html")

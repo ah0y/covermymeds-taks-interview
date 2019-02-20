@@ -39,17 +39,15 @@ defmodule PhoenixTasksWeb.Router do
   scope "/", PhoenixTasksWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
-#    get "/pref", UserController, :pref
-
+    get "/",  PageController, :index
 
   end
 
   scope "/", PhoenixTasksWeb do
     pipe_through :protected
 
-    # add protected resources below
-    resources "/users", UserController
+    get "/all", TaskController, :all
+    get "/pref", UserController, :pref
 
     resources "/customers", CustomerController do
       resources "/projects", ProjectController do
