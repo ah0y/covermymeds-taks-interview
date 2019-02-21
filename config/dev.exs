@@ -34,8 +34,8 @@ config :phoenix_tasks, PhoenixTasksWeb.Endpoint,
     patterns: [
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
-      ~r{web/views/.*(ex)$},
-      ~r{web/templates/.*(eex)$}
+      ~r{lib/phoenix_tasks_web/views/.*(ex)$},
+      ~r{lib/phoenix_tasks_web/templates/.*(eex)$}
     ]
   ]
 
