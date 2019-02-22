@@ -44,7 +44,7 @@ defmodule PhoenixTasksWeb.EntryController do
       {:ok, entry} ->
         conn
         |> put_flash(:info, "Entry created successfully.")
-        |> render("show.html", customer: customer, project: project, task: task, entry: entry.id)
+        |> render("show.html", customer: customer, project: project, task: task, entry: entry)
       {:error, %Ecto.Changeset{} = changeset} ->
         render(
           conn,

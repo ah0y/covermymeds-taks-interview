@@ -6,7 +6,7 @@
 	<% end %>
          <div class="form-group">Start Time
             <%= datetime_select f, :start_time, class: "form-control",
-                default: {NaiveDateTime.utc_now.month, NaiveDateTime.utc_now.day, NaiveDateTime.utc_now.year }%>
+                default: {{ NaiveDateTime.utc_now.year, NaiveDateTime.utc_now.month, NaiveDateTime.utc_now.day}, {00, 00, 00}}%>
              <%= error_tag f, :start_time %>
          </div>
          <div class="form-group">Duration
