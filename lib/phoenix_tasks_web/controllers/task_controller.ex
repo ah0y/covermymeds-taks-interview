@@ -44,7 +44,7 @@ defmodule PhoenixTasksWeb.TaskController do
       {:ok, task} ->
         conn
         |> put_flash(:info, "Task created successfully.")
-        |> redirect(to: customer_project_task_path(conn, :show, customer, task.project_id, task.user_id))
+        |> redirect(to: customer_project_task_path(conn, :show, customer, task.project_id, task.id))
       {:error, %Ecto.Changeset{} = changeset} ->
         render(conn, "new.html", changeset: changeset)
     end
