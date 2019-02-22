@@ -51,7 +51,6 @@ defmodule PhoenixTasksWeb.TaskController do
   end
 
   def show(conn, %{"id" => task}, _user) do
-#    require IEx; IEx.pry()
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     redirect(conn, to: customer_project_task_entry_path(conn, :index, customer, project, task))

@@ -1,12 +1,6 @@
 <h2>Listing Task Entries</h2>
 
-<table class="table">
-  <thead>
-    <tr>
-
-      <th></th>
-    </tr>
-  </thead>
+<table class="table" style="background-color: white">
   <tbody>
 <%= for entry <- @entries do %>
     <tr>

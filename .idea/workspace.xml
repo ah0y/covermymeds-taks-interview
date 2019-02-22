@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc28efc8-5fd6-427e-8807-0d4c3428cb52" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/models/entry.ex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/models/entry.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/customer/index.html.eex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/customer/index.html.eex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/form.html.eex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/form.html.eex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/index.html.eex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/index.html.eex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/show.html.eex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/show.html.eex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/project/index.html.eex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/project/index.html.eex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/task/index.html.eex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/task/index.html.eex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/phoenix_tasks_web/views/error_helpers.ex" afterPath="$PROJECT_DIR$/lib/phoenix_tasks_web/views/error_helpers.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/priv/repo/migrations/20190209152146_create_entry.exs" afterPath="$PROJECT_DIR$/priv/repo/migrations/20190209152146_create_entry.exs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,18 +22,52 @@
       <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/customer/index.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="175">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/index.html.eex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/task/index.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+              <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry_controller.ex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_controller.ex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -143,17 +167,17 @@
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/page_controller.ex" />
         <option value="$PROJECT_DIR$/assets/css/app.css" />
         <option value="$PROJECT_DIR$/config/dev.exs" />
-        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20190209152146_create_entry.exs" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/form.html.eex" />
-        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/index.html.eex" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/models/entry.ex" />
-        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/show.html.eex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/customer/index.html.eex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/project/index.html.eex" />
         <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/task/index.html.eex" />
+        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex" />
+        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex" />
+        <option value="$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/index.html.eex" />
       </list>
     </option>
   </component>
@@ -445,7 +469,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="task\index.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/task/index.html.eex&#10;task\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/node_modules/lodash/fp/indexBy.js&#10;project\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/project/index.html.eex&#10;customer\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/customer/index.html.eex&#10;user.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/models/user.ex&#10;app.js&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/assets/js/app.js&#10;entry\show&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/entry/show.html.eex&#10;entry\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/entry/index.html.eex&#10;entry_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/entry_controller.ex&#10;entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/models/entry.ex&#10;config&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/config/config.exs&#10;entry.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/models/entry.ex&#10;migrations\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/repo/migrations&#10;all.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/task/all.html.eex&#10;app.css&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/assets/css/app.css&#10;app.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;customer\inde&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/customer/index.html.eex&#10;app.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;page&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/page_controller.ex&#10;task_controller&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/task_controller.ex&#10;page_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/page_controller.ex&#10;page/index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/page/index.html.eex&#10;all.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/task/all.html.eex&#10;session_con&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/deps/coherence/lib/coherence/controllers/session_controller.ex&#10;router.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/router.ex&#10;project_con&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/project_controller.ex&#10;task_contr&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/task_controller.ex&#10;mix.lock&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/mix.lock&#10;migrations&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/priv/repo/migrations&#10;router&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/router.ex&#10;session&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/session_controller.ex&#10;app.html&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;customer_contr&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/customer_controller.ex&#10;auth&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/auth.ex&#10;mix.e&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.exs&#10;mix.ecs&#9;null&#9;null&#10;mix.ec&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/_build/dev/lib/ecto/ebin/Elixir.Mix.Ecto.beam&#10;customer\index.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;user\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/user&#10;user_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;task_entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/_build/dev/lib/phoenix_tasks/priv/repo/migrations/20190209152146_create_task_entry.exs&#10;entry_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/entry_controller.ex&#10;task_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;router.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;models\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models&#10;project.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/project.ex&#10;task_entry\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/index.html.eex&#10;project&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/project_controller.ex&#10;user&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;session_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex" />
+    <property name="SearchEverywhereHistoryKey" value="entry\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/entry/index.html.eex&#10;task_contr&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/task_controller.ex&#10;entry_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/entry_controller.ex&#10;task\index.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/task/index.html.eex&#10;task\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/node_modules/lodash/fp/indexBy.js&#10;project\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/project/index.html.eex&#10;customer\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/customer/index.html.eex&#10;user.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/models/user.ex&#10;app.js&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/assets/js/app.js&#10;entry\show&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/entry/show.html.eex&#10;entry_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/entry_controller.ex&#10;entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/models/entry.ex&#10;config&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/config/config.exs&#10;entry.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/models/entry.ex&#10;migrations\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/priv/repo/migrations&#10;all.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/task/all.html.eex&#10;app.css&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/assets/css/app.css&#10;app.ht&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;customer\inde&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/customer/index.html.eex&#10;app.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;page&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/page_controller.ex&#10;task_controller&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/task_controller.ex&#10;page_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/page_controller.ex&#10;page/index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/page/index.html.eex&#10;all.html&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/templates/task/all.html.eex&#10;session_con&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/deps/coherence/lib/coherence/controllers/session_controller.ex&#10;router.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/router.ex&#10;project_con&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/lib/phoenix_tasks_web/controllers/project_controller.ex&#10;mix.lock&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/mix.lock&#10;migrations&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/priv/repo/migrations&#10;router&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/router.ex&#10;session&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/session_controller.ex&#10;app.html&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/templates/layout/app.html.eex&#10;customer_contr&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/customer_controller.ex&#10;auth&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/lib/phoenix_tasks_web/controllers/auth.ex&#10;mix.e&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/mix.exs&#10;mix.ecs&#9;null&#9;null&#10;mix.ec&#9;FILE&#9;file:///Users/aberhamhaile/Downloads/code/phoenixtasks/_build/dev/lib/ecto/ebin/Elixir.Mix.Ecto.beam&#10;customer\index.&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/customer/index.html.eex&#10;user\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/user&#10;user_&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;task_entry&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/_build/dev/lib/phoenix_tasks/priv/repo/migrations/20190209152146_create_task_entry.exs&#10;task_c&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/task_controller.ex&#10;router.e&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/router.ex&#10;models\&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models&#10;project.ex&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/models/project.ex&#10;task_entry\index&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/templates/task_entry/index.html.eex&#10;project&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/project_controller.ex&#10;user&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/user_controller.ex&#10;session_cont&#9;FILE&#9;file://C:/Users/hailea3/Downloads/phoenixtasks-master/web/controllers/session_controller.ex" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -616,16 +640,16 @@
       <workItem from="1550072141182" duration="12967000" />
       <workItem from="1550503302728" duration="6492000" />
       <workItem from="1550671942779" duration="11817000" />
-      <workItem from="1550750389515" duration="14505000" />
+      <workItem from="1550750389515" duration="15277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151578000" />
+    <option name="totallyTimeSpent" value="152350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1407" y="-1361" width="2182" height="1312" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25358853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -634,7 +658,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -945,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/views/entry_view.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -983,22 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/index.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1037,8 +1037,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/customer/index.html.eex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="175">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/entry_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/controllers/task_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1046,8 +1062,20 @@
     <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/task/index.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-          <folding />
+          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phoenix_tasks_web/templates/entry/index.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
