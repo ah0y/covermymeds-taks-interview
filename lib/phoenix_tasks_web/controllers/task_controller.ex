@@ -3,11 +3,8 @@ defmodule PhoenixTasksWeb.TaskController do
 
   import Ecto.Query
 
-  alias PhoenixTasks.Customer
   alias PhoenixTasks.Project
   alias PhoenixTasks.Task
-  alias PhoenixTasks.Entry
-  alias PhoenixTasks.Coherence.User
 
   def index(conn, params, user) do
     customer = params["customer_id"]
@@ -19,7 +16,7 @@ defmodule PhoenixTasksWeb.TaskController do
     render(conn, "index.html", header: project.project_name, customer: customer, project: project.id, tasks: user.tasks)
   end
 
-  def all(conn, params, user) do
+  def all(conn, _params, user) do
     user = Repo.all assoc(user, [:tasks, :projects, :customers])
     work = Repo.preload(user, [{:projects, :tasks}])
     render(conn, "all.html", work: work)
@@ -81,7 +78,7 @@ defmodule PhoenixTasksWeb.TaskController do
       |> Repo.preload(tasks: query)
     changeset = Task.changeset(task, task_params)
     case Repo.update(changeset) do
-      {:ok, task} ->
+      {:ok, _task} ->
         conn
         |> put_flash(:info, "Task updated successfully.")
         |> redirect(to: customer_project_task_path(conn, :index, customer, project, user.tasks))

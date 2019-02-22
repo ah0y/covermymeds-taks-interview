@@ -7,7 +7,7 @@ defmodule PhoenixTasksWeb.EntryController do
   alias PhoenixTasks.Entry
   alias PhoenixTasks.Coherence.User
 
-  def index(conn, params, user) do
+  def index(conn, _params, _user) do
     customer = conn.params["customer_id"]
     project = conn.params["project_id"]
     task = conn.params["task_id"]
@@ -89,7 +89,7 @@ defmodule PhoenixTasksWeb.EntryController do
     entry = Repo.get(Entry, id)
     changeset = Entry.changeset(entry, entry_params)
     case Repo.update(changeset) do
-      {:ok, entry} ->
+      {:ok, _entry} ->
         conn
         |> put_flash(:info, "Task  entry updated successfully.")
         |> render(

@@ -3,17 +3,6 @@ defmodule PhoenixTasksWeb.UserController do
 
   alias PhoenixTasks.Coherence.User
 
-#  def authenticate(conn, _opts) do
-#    if conn.assigns.current_user do
-#      conn
-#    else
-#      conn
-#        |> put_flash(:error, "You must be logged in to access that page")
-#        |> redirect(to: user_path(conn, :new))
-#        |> halt()
-#    end
-#  end
-
   def pref(conn, _params) do
     render(conn, "pref.html")
   end
@@ -31,7 +20,7 @@ defmodule PhoenixTasksWeb.UserController do
   def create(conn, %{"user" => user_params}) do
     changeset = User.registration_changeset(%User{}, user_params)
     case Repo.insert(changeset) do
-      {:ok, user} ->
+      {:ok, _user} ->
         conn
           |> put_flash(:info, "User created successfully.")
           |> redirect(to: session_path(conn, :new))
@@ -66,10 +55,10 @@ defmodule PhoenixTasksWeb.UserController do
 
   def delete(conn, %{"id" => id}) do
     user = Repo.get(User, id)
-    {:ok, _user} = PhoenixTasks.delete_user(user)
+    Repo.delete(user)
     conn
       |> put_flash(:info, "User deleted successfully.")
-      |> redirect(to: user_path(conn, :index))
+      |> redirect(to: page_path(conn, :index))
   end
 end
 
