@@ -1,11 +1,6 @@
 <h2><%=@header%> Projects</h2>
 
 <table class="table" style="background-color: white";>
-  <thead>
-    <tr>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
 <%= for project <- @projects do %>
     <tr>

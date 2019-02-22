@@ -3,6 +3,8 @@ defmodule PhoenixTasks.Entry do
 
   schema "entries" do
     field :note, :string
+    field :start_time, :naive_datetime
+    field :duration, :time
 
     belongs_to :task, PhoenixTasks.Task, foreign_key: :task_id
 
@@ -14,7 +16,7 @@ defmodule PhoenixTasks.Entry do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:note])
-    |> validate_required([:note])
+    |> cast(params, [:note, :start_time, :duration])
+    |> validate_required([:start_time, :duration])
   end
 end

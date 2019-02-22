@@ -5,6 +5,8 @@ defmodule PhoenixTasks.Repo.Migrations.CreateEntry do
     create table(:entries) do
       add :note, :string
       add :task_id, references(:tasks)
+      add :duration, :time
+      add :start_time, :naive_datetime
 
       timestamps()
     end

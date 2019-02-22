@@ -1,12 +1,6 @@
 <h2>Listing Customers</h2>
 
 <table class="table" style="background-color: white";>
-  <thead>
-    <tr>
-
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
 <%= for customer <- @customers do %>
     <tr>

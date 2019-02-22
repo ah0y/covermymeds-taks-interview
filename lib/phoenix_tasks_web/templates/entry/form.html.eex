@@ -4,10 +4,18 @@
 			<p>Oops, something went wrong! Please check the errors below.</p>
 		</div>
 	<% end %>
+         <div class="form-group">Start Time
+            <%= datetime_select f, :start_time, class: "form-control",
+                default: {DateTime.utc_now.year, DateTime.utc_now.month, DateTime.utc_now.day}%>
+             <%= error_tag f, :start_time %>
+         </div>
+         <div class="form-group">Duration
+           <%= time_select f, :duration, class: "form-control" %>
+           <%= error_tag f, :duration %>
+         </div>
         <div class="form-group">
-            <%= text_input f, :note, placeholder: "Note", class: "form-control" %>
-            		<%= error_tag f, :note %>
-
+            <%= textarea f, :note, placeholder: "Note", class: "form-control" %>
+            <%= error_tag f, :note %>
         </div>
         <%= submit "Submit", class: "btn btn-primary" %>
     <% end %>

@@ -43,7 +43,7 @@ defmodule PhoenixTasksWeb.EntryController do
     case Repo.insert(changeset) do
       {:ok, entry} ->
         conn
-        |> put_flash(:info, "Project created successfully.")
+        |> put_flash(:info, "Entry created successfully.")
         |> render("show.html", customer: customer, project: project, task: task, entry: entry.id)
       {:error, %Ecto.Changeset{} = changeset} ->
         render(

@@ -29,6 +29,12 @@ $(document).ready(function(){
     }
 });
 
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+
+$(".start_time").text(function() {
+   return new Date($(this).text()).toLocaleString("en-US", options)
+});
+
 
 
 

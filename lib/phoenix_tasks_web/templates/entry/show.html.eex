@@ -1,7 +1,9 @@
-<h2>Show Task  entry</h2>
+<h2>Show Task entry</h2>
 
 <ul>
-
+   <li class="start_time"><%= @entry.start_time %></li>
+   <li>Duration: <%= @entry.duration %></li>
+   <li>Note: <%= @entry.note %></li>
 </ul>
 
 <span><%= link "Edit", to: customer_project_task_entry_path(@conn, :edit, @customer, @project, @task, @entry) %></span>
