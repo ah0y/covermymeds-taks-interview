@@ -1,0 +1,7 @@
+/* This file is for your main application css. */
+.collapsed .icon-class:before {
+    content: '>';
+}
+.icon-class:before {
+    content: 'v';
+}

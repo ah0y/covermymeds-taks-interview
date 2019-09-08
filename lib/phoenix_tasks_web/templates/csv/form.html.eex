@@ -1,0 +1,4 @@
+<%= form_for @conn, csv_path(@conn, :import), [multipart: true], fn f -> %>
+    <%= file_input f, :csv, class: "form-control" %>
+    <%= submit "import", class: "btn btn-primary" %>
+<% end %>

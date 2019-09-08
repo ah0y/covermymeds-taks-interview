@@ -1,0 +1,83 @@
+<%= form_for @changeset, @action, fn f -> %>
+	<%= if @changeset.action do %>
+		<div class="alert alert-danger">
+			<p>Oops, something went wrong! Please check the errors below.</p>
+		</div>
+	<% end %>
+        <div class="form-group">
+            <%= text_input f, :company, placeholder: "Company Name", class: "form-control" %>
+            		<%= error_tag f, :company %>
+
+        </div>
+                <div class="form-group">
+                    <%= text_input f, :address1, placeholder: "Address1", class: "form-control" %>
+                    		<%= error_tag f, :address1 %>
+                    		</div>
+                    		                <div class="form-group">
+                                                <%= text_input f, :address2, placeholder: "Address2", class: "form-control" %>
+                                                		<%= error_tag f, :address2 %>
+                                                		</div>
+                                                		                <div class="form-group">
+                                                                            <%= text_input f, :address3, placeholder: "Address3", class: "form-control" %>
+                                                                            		<%= error_tag f, :address3 %>
+                                                                            		</div>
+        <div class="form-group">
+            <%= text_input f, :city, placeholder: "City", class: "form-control" %>
+            		<%= error_tag f, :city %>
+
+        </div>
+        <div class="form-group">
+                    <%= text_input f, :state, placeholder: "State", class: "form-control" %>
+                    		<%= error_tag f, :state %>
+
+
+         </div>
+         <div class="form-group">
+                             <%= number_input f, :zip, placeholder: "Zip", class: "form-control" %>
+                             		<%= error_tag f, :zip %>
+
+
+                  </div>
+         <div class="form-group">
+                             <%= number_input f, :phone1, placeholder: "Phone1", class: "form-control" %>
+                             		<%= error_tag f, :phone1 %>
+
+
+                  </div>
+
+         <div class="form-group">
+                             <%= number_input f, :phone2, placeholder: "Phone2", class: "form-control" %>
+                             		<%= error_tag f, :phone2 %>
+
+
+                  </div>
+
+         <div class="form-group">
+                             <%= number_input f, :fax1, placeholder: "Fax1", class: "form-control" %>
+                             		<%= error_tag f, :fax1 %>
+
+
+                  </div>
+
+         <div class="form-group">
+                             <%= number_input f, :fax2, placeholder: "Fax2", class: "form-control" %>
+                             		<%= error_tag f, :fax2 %>
+
+
+                  </div>
+
+         <div class="form-group">
+                             <%= email_input f, :email, placeholder: "Email", class: "form-control" %>
+                             		<%= error_tag f, :email %>
+
+
+                  </div>
+
+
+         <div class="form-group">
+                             <%= text_input f, :website, placeholder: "Website", class: "form-control" %>
+                             		<%= error_tag f, :website %>
+
+                  </div>
+        <%= submit "Submit", class: "btn btn-primary" %>
+    <% end %>

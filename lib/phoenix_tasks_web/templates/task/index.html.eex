@@ -1,0 +1,17 @@
+<h2><%=@header%> Tasks</h2>
+<table class="table" style="background-color: white";>
+  <tbody>
+<%= for task <- @tasks do %>
+    <tr>
+      <td><b><%= task.task_name %> </b>(<%= Float.ceil(task.total_time.secs / 3600, 2) %>)</td>
+      <td class="text-right">
+        <span><%= link "Show", to: customer_project_task_path(@conn, :show, @customer, @project, task), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: customer_project_task_path(@conn, :edit, @customer, @project, task), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: customer_project_task_path(@conn, :delete, @customer, @project, task), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Task", to: customer_project_task_path(@conn, :new, @customer, @project) %></span>

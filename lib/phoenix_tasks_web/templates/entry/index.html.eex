@@ -1,0 +1,21 @@
+<h2>Listing Task Entries</h2>
+
+<table class="table" style="background-color: white">
+  <tbody>
+<%= for entry <- @entries do %>
+    <tr>
+         <td class="start_time"><%= entry.start_time %></td>
+         <td class="text-right">
+           <span><%= link "Show", to: customer_project_task_entry_path(@conn, :show, @customer, @project, @task, entry), class: "btn btn-default btn-xs" %></span>
+           <span><%= link "Edit", to: customer_project_task_entry_path(@conn, :edit, @customer, @project, @task, entry), class: "btn btn-default btn-xs" %></span>
+           <span><%= link "Delete", to: customer_project_task_entry_path(@conn, :delete, @customer, @project, @task, entry), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+         </td>
+       </tr>
+<% end %>
+  </tbody>
+</table>
+
+
+
+<span><%= link "New Entry", to: customer_project_task_entry_path(@conn, :new, @customer, @project, @task) %></span>
+

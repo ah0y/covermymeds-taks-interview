@@ -1,0 +1,18 @@
+<h2>Listing Customers</h2>
+
+<table class="table" style="background-color: white";>
+  <tbody>
+<%= for customer <- @customers do %>
+    <tr>
+      <td><b><%= customer.company %></b></td>
+      <td class="text-right">
+        <span><%= link "Show", to: customer_path(@conn, :show, customer), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: customer_path(@conn, :edit, customer), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: customer_path(@conn, :delete, customer), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Customer", to: customer_path(@conn, :new) %></span>
